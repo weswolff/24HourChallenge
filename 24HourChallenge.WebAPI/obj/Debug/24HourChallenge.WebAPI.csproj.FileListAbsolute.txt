@@ -1,0 +1,2 @@
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.WebAPI\obj\Debug\24HourChallenge.WebAPI.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.WebAPI\obj\Debug\24HourChallenge.WebAPI.csproj.CoreCompileInputs.cache

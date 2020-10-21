@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.pdb
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.pdb
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\24HourChallenge.Services.dll.config
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\DotNetProjects\24HourChallenge\24HourChallenge.Services\obj\Debug\24HourChallenge.Services.csproj.CopyComplete
