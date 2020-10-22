@@ -19,7 +19,7 @@ namespace _24HourChallenge.Data
         [Required]
         public Guid OwnerId { get; set; }
 
-        [ForeignKey(nameof(Author))]
-        public virtual User Author { get; set; }
+        //[ForeignKey(nameof(Author))]
+        //public virtual User Author { get; set; }
     }
 }
