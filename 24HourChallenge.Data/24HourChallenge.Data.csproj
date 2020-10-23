@@ -94,6 +94,10 @@
     <Compile Include="Migrations\202010222355022_Initial commit.Designer.cs">
       <DependentUpon>202010222355022_Initial commit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010230129383_update post.cs" />
+    <Compile Include="Migrations\202010230129383_update post.Designer.cs">
+      <DependentUpon>202010230129383_update post.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,6 +110,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010222355022_Initial commit.resx">
       <DependentUpon>202010222355022_Initial commit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010230129383_update post.resx">
+      <DependentUpon>202010230129383_update post.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
