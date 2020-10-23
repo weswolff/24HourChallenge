@@ -89,6 +89,7 @@
     <Compile Include="DavidTestClass2.cs" />
     <Compile Include="DavidTestClass3.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Like.cs" />
     <Compile Include="Migrations\202010222355022_Initial commit.cs" />
     <Compile Include="Migrations\202010222355022_Initial commit.Designer.cs">
       <DependentUpon>202010222355022_Initial commit.cs</DependentUpon>
