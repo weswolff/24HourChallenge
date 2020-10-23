@@ -32,13 +32,15 @@ namespace _24HourChallenge.Data
         {
             return new ApplicationDbContext();
         }
+
         public DbSet<User> Users { get; set; }
+        public DbSet<Post> Posts { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
-            .Conventions
-            .Remove<PluralizingTableNameConvention>();
-
+                   .Conventions
+                   .Remove<PluralizingTableNameConvention>();
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
