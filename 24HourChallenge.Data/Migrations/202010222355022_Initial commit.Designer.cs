@@ -7,13 +7,13 @@ namespace _24HourChallenge.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class InitialCreate : IMigrationMetadata
+    public sealed partial class Initialcommit : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initialcommit));
         
         string IMigrationMetadata.Id
         {
-            get { return "202010221415494_InitialCreate"; }
+            get { return "202010222355022_Initial commit"; }
         }
         
         string IMigrationMetadata.Source
