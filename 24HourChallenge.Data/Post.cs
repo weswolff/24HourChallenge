@@ -21,7 +21,8 @@ namespace _24HourChallenge.Data
         public string Comment { get; set; }
         public bool IsLiked { get; set; }
 
-        //[ForeignKey(nameof(Author))]
-        //public virtual User Author { get; set; }
+        [ForeignKey(nameof(Author))]
+        public virtual User Author { get; set; }
+        public virtual Like Liked { get; set; }
     }
 }
