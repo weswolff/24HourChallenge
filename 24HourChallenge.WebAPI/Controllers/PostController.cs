@@ -39,7 +39,20 @@ namespace _24HourChallenge.WebAPI.Controllers
 
             return Ok();
         }
-            
+
+        public IHttpActionResult Put(Post note)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var service = CreatePostService();
+
+            if (!service.UpdatePost(note))
+                return InternalServerError();
+
+            return Ok();
+        }
+
     }
 
 }

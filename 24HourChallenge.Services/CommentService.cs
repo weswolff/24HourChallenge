@@ -8,44 +8,43 @@ using System.Threading.Tasks;
 
 namespace _24HourChallenge.Services
 {
-    public class PostService
+    public class CommentService
     {
         private readonly Guid _userId;
 
-        public PostService(Guid userId)
+        public CommentService(Guid userId)
         {
             _userId = userId;
         }
 
-        public bool CreatePost(PostCreate model)
+        public bool CreateComment(CommentCreate model)
         {
             var entity =
-                new Post()
+                new Comment()
                 {
-                    OwnerId = _userId,
-                    Title = model.Title,
+                    //Id = _userId,
                     Text = model.Text
                 };
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Posts.Add(entity);
+                ctx.Comments.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
-        public IEnumerable<PostListItem> GetPosts()
+        public IEnumerable<CommentListItem> GetComments()
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var query =
                     ctx
-                        .Posts
+                        .Comments
                         .Where(e => e.OwnerId == _userId)
                         .Select(
                             e =>
-                                new PostListItem
+                                new CommentListItem
                                 {
-                                    PostId = e.PostId,
-                                    Title = e.Title,
+                                    Id = e.Id,
+                                    Text = e.Text,
                                     //Author = e.Author.ToString()
                                 }
                         );
@@ -53,38 +52,22 @@ namespace _24HourChallenge.Services
             }
         }
 
-        public bool UpdatePost(Post model)
+        public bool UpdateComment(Comment model)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
-                        .Posts
-                        .Single(e => e.PostId == model.PostId && e.OwnerId == _userId);
+                        .Comments
+                        .Single(e => e.Id == model.Id && e.OwnerId == _userId);
 
-                entity.Title = model.Title;
+                
                 entity.Text = model.Text;
-                entity.isLiked = model.isLiked;
+                
                 //entity.ModifiedUtc = DateTimeOffset.UtcNow;
 
                 return ctx.SaveChanges() == 1;
             }
         }
-
-        //public bool UpdateLike(Post model)
-        //{
-        //    using (var ctx = new ApplicationDbContext())
-        //    {
-        //        var entity =
-        //            ctx
-        //                .Posts
-        //                .Single(e => e.PostId == model.PostId && e.OwnerId == _userId);
-
-        //        entity.isLiked = model.isLiked;                
-        //        //entity.ModifiedUtc = DateTimeOffset.UtcNow;
-
-        //        return ctx.SaveChanges() == 1;
-        //    }
-        //}
     }
 }
