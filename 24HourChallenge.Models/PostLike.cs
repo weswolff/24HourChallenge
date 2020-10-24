@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24HourChallenge.Data
+namespace _24HourChallenge.Models
 {
-    class DavidTestClass3
+    public class PostLike
     {
+        public bool IsLiked { get; set; }        
+
     }
 }

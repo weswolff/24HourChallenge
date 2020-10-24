@@ -85,13 +85,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DavidTestClass.cs" />
-    <Compile Include="DavidTestClass2.cs" />
-    <Compile Include="DavidTestClass3.cs" />
+    <Compile Include="Comment.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Like.cs" />
     <Compile Include="Migrations\202010222355022_Initial commit.cs" />
     <Compile Include="Migrations\202010222355022_Initial commit.Designer.cs">
       <DependentUpon>202010222355022_Initial commit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010241338151_Final Rough Draft David.cs" />
+    <Compile Include="Migrations\202010241338151_Final Rough Draft David.Designer.cs">
+      <DependentUpon>202010241338151_Final Rough Draft David.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
@@ -105,6 +108,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010222355022_Initial commit.resx">
       <DependentUpon>202010222355022_Initial commit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010241338151_Final Rough Draft David.resx">
+      <DependentUpon>202010241338151_Final Rough Draft David.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
