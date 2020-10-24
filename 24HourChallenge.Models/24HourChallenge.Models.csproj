@@ -55,13 +55,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommentCreate.cs" />
+    <Compile Include="CommentListItem.cs" />
     <Compile Include="PostCreate.cs" />
+    <Compile Include="PostLike.cs" />
     <Compile Include="PostListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\24HourChallenge.Data\24HourChallenge.Data.csproj">
+      <Project>{C64AC21C-61BA-41C0-9666-98A3012F8576}</Project>
+      <Name>24HourChallenge.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
