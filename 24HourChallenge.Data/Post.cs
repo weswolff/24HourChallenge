@@ -16,7 +16,7 @@ namespace _24HourChallenge.Data
         public string Title { get; set; }
         [Required]
         public string Text { get; set; }
-        [Required]
+        
         public Guid OwnerId { get; set; }
 
 

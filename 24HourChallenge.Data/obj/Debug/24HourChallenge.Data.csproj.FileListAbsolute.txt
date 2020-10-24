@@ -108,3 +108,4 @@ C:\Users\david.gilchrist\source\repos\weswolff\24HourChallenge\24HourChallenge.D
 C:\Users\david.gilchrist\source\repos\weswolff\24HourChallenge\24HourChallenge.Data\obj\Debug\24HourChallenge.Data.dll
 C:\Users\david.gilchrist\source\repos\weswolff\24HourChallenge\24HourChallenge.Data\obj\Debug\24HourChallenge.Data.pdb
 C:\Users\david.gilchrist\source\repos\weswolff\24HourChallenge\24HourChallenge.Data\obj\Debug\_24HourChallenge.Data.Migrations.FinalRoughDraftDavid.resources
+C:\Users\david.gilchrist\source\repos\weswolff\24HourChallenge\24HourChallenge.Data\obj\Debug\_24HourChallenge.Data.Migrations.FinalRoughDraftDavid2.resources

@@ -46,6 +46,7 @@ namespace _24HourChallenge.Services
                                 {
                                     PostId = e.PostId,
                                     Title = e.Title,
+                                    Text = e.Text
                                     //Author = e.Author.ToString()
                                 }
                         );
