@@ -22,7 +22,7 @@ namespace _24HourChallenge.Services
             var entity =
                 new Comment()
                 {
-                    //Id = _userId,
+                    Author = model.Author,
                     Text = model.Text
                 };
             using (var ctx = new ApplicationDbContext())
